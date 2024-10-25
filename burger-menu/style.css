@@ -35,7 +35,7 @@ nav {
   align-items: center;
 }
 
-i.fa-magnifying-glass {
+i.fa-text-height {
   position: relative;
   padding-right: 20px;
 }
@@ -80,6 +80,7 @@ p, h1 {
     width: 100%;
     background-color: gray;
     color: white;
+    transition: height 2s;
   }
 
   #mobile-links p {

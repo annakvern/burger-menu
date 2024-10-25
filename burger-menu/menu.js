@@ -2,15 +2,16 @@
 window.addEventListener('DOMContentLoaded', main); 
 
 function main() {
-  document.getElementById('menu').onclick(menuToggle);
+  menu.onclick = menuToggle;
+  console.log('Inne i main');
 }
 
 function menuToggle() {
-  var x = document.getElementById("nav-links");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  var toggle = document.getElementById("mobile-links");
+  if (toggle.style.display === "block") {
+    toggle.style.display = "none";
   } else {
-    x.style.display = "block";
+    toggle.style.display = "block";
   }
 }
 
