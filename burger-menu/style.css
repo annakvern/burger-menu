@@ -1,7 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin:0;
   padding:0;
 }
+
 ul {
  margin: 0;
 }
@@ -47,7 +52,7 @@ i.fa-text-height {
 }
 
 header {
-  background-color: #111111;
+  background-color: #222;
   height: 60px;
   width: 100%;
   display: flex;
@@ -63,7 +68,7 @@ p, h1 {
 @media only screen and (max-width: 800px) {
   i.fa-bars {
     display: block;
-    padding-left: 20px;
+    padding: 20px;
   }
 
   li {
@@ -78,7 +83,7 @@ p, h1 {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: gray;
+    background-color: rgb(34, 34, 34);
     color: white;
     transition: height 2s;
   }
